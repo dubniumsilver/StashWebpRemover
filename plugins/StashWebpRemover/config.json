@@ -1,0 +1,53 @@
+{
+  "name": "WebP to JPG Converter",
+  "description": "Converts existing scene screenshots from .webp to .jpg, with advanced options.",
+  "version": "2.0",
+  "ui": true,
+  "settings": {
+    "dry_run": {
+      "displayName": "Dry Run (no changes written)",
+      "type": "boolean",
+      "default": true
+    },
+    "delete_webp": {
+      "displayName": "Delete original .webp files",
+      "type": "boolean",
+      "default": false
+    },
+    "jpg_quality": {
+      "displayName": "JPG Quality (1–100)",
+      "type": "number",
+      "default": 90
+    },
+    "convert_only_missing": {
+      "displayName": "Convert only if JPG is missing",
+      "type": "boolean",
+      "default": true
+    },
+    "rebuild_paths": {
+      "displayName": "Rebuild screenshot paths (force update)",
+      "type": "boolean",
+      "default": false
+    },
+    "skip_multi_image": {
+      "displayName": "Skip scenes with multiple images",
+      "type": "boolean",
+      "default": false
+    },
+    "batch_limit": {
+      "displayName": "Max scenes to process (0 = unlimited)",
+      "type": "number",
+      "default": 0
+    },
+    "write_report": {
+      "displayName": "Write conversion report to plugin folder",
+      "type": "boolean",
+      "default": true
+    },
+    "preview_mode": {
+      "displayName": "Preview Mode (show what WOULD be converted)",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
