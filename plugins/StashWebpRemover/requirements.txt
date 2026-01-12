@@ -1,2 +1,4 @@
-Pillow
-stashapi
+# Requirements for WebP Screenshot Remover Plugin
+
+requests>=2.25.0
+Pillow>=9.0.0

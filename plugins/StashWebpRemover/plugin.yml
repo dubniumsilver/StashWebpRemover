@@ -1,0 +1,8 @@
+name: WebP Screenshot Remover
+description: Automatically removes .webp scene screenshots and replaces them with .jpg versions in Stash.
+version: 1.0.0
+url: https://github.com/dubniumsilver/StashWebpRemover
+exec:
+  - python
+  - webp_remover.py
+interface: raw
