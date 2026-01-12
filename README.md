@@ -74,7 +74,6 @@ The plugin returns a JSON response with:
   }
 }
 ```
-```
 
 ## Requirements
 
